@@ -3,8 +3,8 @@ import StoreImage from '../../assets/images/store.jpeg'
 
 const StoreInfo = () => {
     return (
-        <section className="pageMain ">
-        <div className="contact-container container mt-5">
+        <section className="pageMain statickPageDesign">
+        <div className="container">
             {/* Breadcrumb navigation */}
             <div className="row">
                 <div className="col">
@@ -16,18 +16,18 @@ const StoreInfo = () => {
                     </nav>
                 </div>
             </div>
-            <div className="row">
+            <div className="contentPageWrapper aboutUSPage">
                 {/* Image Section */}
-                <div className="col-md-12">
+                
                     <img
                         src={StoreImage}
                         alt="Store display"
                         className="img-fluid rounded mb-4"
                     />
-                </div>
+              
 
                 {/* Store Address Section */}
-                <div className="col-md-12">
+              
                     <h4><strong>Store Address:</strong></h4>
                     <p>
                         VESIMI, 105 & 106, 1st Floor, Citadel Tower - Dubai
@@ -56,7 +56,7 @@ const StoreInfo = () => {
                     ></iframe>
                 </div>
             </div>
-        </div>
+        
         </section>
     );
 };

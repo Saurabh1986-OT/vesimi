@@ -2,8 +2,8 @@ import React from "react";
 
 const TermsAndConditions = () => {
     return (
-        <section className="pageMain ">
-            <div className="contact-container container mt-5">
+        <section className="pageMain statickPageDesign">
+        <div className="container">
                 <div className="row">
                     <div className="col">
                         <nav aria-label="breadcrumb">
@@ -14,7 +14,8 @@ const TermsAndConditions = () => {
                         </nav>
                     </div>
                 </div>
-                <h2 className="mb-4"><strong>TERMS & CONDITIONS</strong></h2>
+                <div className="contentPageWrapper">
+                <h1 className="mb-4"><strong>TERMS & CONDITIONS</strong></h1>
 
                 <h2>1. Introduction:</h2>
                 <ol>
@@ -257,6 +258,7 @@ const TermsAndConditions = () => {
                 <ol>
                     <li>In case of any grievances with respect to (i) the Website or any contents of the Website please contact us by sending e-mail to <a href="mailto:contact@vesimi.com">contact@vesimi.com</a>; or (ii) products purchased on the Website, please contact us by sending email to <a href="mailto:orders@vesimi.com">orders@vesimi.com</a></li>
                 </ol>
+            </div>
             </div>
         </section >
     );

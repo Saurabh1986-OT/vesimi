@@ -874,12 +874,12 @@ const Header = () => {
           </div>
           <div className="d-flex justify-content-end gap-2 mt-3">
             <Button
-              className="font-14 w-100"
+              className="font-14 w-100 themeCancelBtn"
               onClick={() => handleOpenLoginPopup(false)}
             >
               Cancel
             </Button>
-            <Button className="font-14 w-100" type="submit">
+            <Button className="font-14 w-100 themePrimaryBtn" type="submit">
               Login
             </Button>
           </div>
@@ -928,8 +928,21 @@ const Header = () => {
             required={true}
             onKeyDown={removeSpaceOnly}
           />
-          <div className="mt-3 d-flex justify-content-between">
+         
+          <div className="d-flex justify-content-end gap-2 mt-3">
             <Button
+              className="font-14 w-100 themeCancelBtn"
+              onClick={() => handleOpenSignupPopup(false)}
+            >
+              Cancel
+            </Button>
+            <Button className="font-14 w-100 themePrimaryBtn" type="submit">
+              SignUp
+            </Button>
+          </div>
+        </Form>
+        <div className="mt-3 d-flex justify-content-center"> 
+           <Button  className="ps-0 d-block text-center text-dark"
               variant="link"
               onClick={() => {
                 handleOpenLoginPopup(true);
@@ -938,20 +951,7 @@ const Header = () => {
             >
               Already have an account
             </Button>
-          </div>
-          <div className="d-flex justify-content-end gap-2 mt-3">
-            <Button
-              className="font-14 w-100"
-              onClick={() => handleOpenSignupPopup(false)}
-            >
-              Cancel
-            </Button>
-            <Button className="font-14 w-100" type="submit">
-              SignUp
-            </Button>
-          </div>
-        </Form>
-
+            </div>
         <div className="mt-4 text-center">
           {/* <GoogleOAuthProvider clientId="YOUR_GOOGLE_CLIENT_ID">
             <GoogleLogin

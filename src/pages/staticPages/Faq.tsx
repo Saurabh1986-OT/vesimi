@@ -2,8 +2,8 @@ import React from 'react'
 
 const Faq = () => {
     return (
-        <section className="pageMain ">
-            <div className="contact-container container mt-5">
+        <section className="pageMain statickPageDesign">
+        <div className="container">
                 <div className="row">
                     <div className="col">
                         <nav aria-label="breadcrumb">
@@ -14,7 +14,8 @@ const Faq = () => {
                         </nav>
                     </div>
                 </div>
-                <h2 className="mb-4"><strong> FAQ's</strong></h2>
+                <div className="contentPageWrapper faqPageDesign">
+                <h1 className="mb-4"><strong> FAQ's</strong></h1>
                 <p>Welcome to VESIMI.com (Yogi International Trading Co LLC), your online destination for fashion in the Middle East. We offer an ever expanding selection of the most desirable brands at attractive prices, all delivered directly to your doorstep. With a commitment to customer service, VESIMI is the safest and most secure way to shop online.</p>
                 <h5><strong>Enjoy your fashion delivered! Exclusively by VESIMI.</strong></h5>
                 <p>&nbsp;</p>
@@ -339,6 +340,7 @@ const Faq = () => {
                     <p><span>Registered customers who have cookies enabled will be automatically recognized when they visit VESIMI - your name will appear in a welcome message at the top left hand corner of the website. You will be able to access your Wish List and then add or move items, register interest for pieces not yet in stock or request item updates without signing in to your account.</span><br /><span> When you proceed to purchase you will be prompted to enter your email address and password and review your shipping and payment details before completing your order. Please note that registered customers will be recognized for 14 days. After this time, users will be prompted to sign back in to their account.</span></p>
                 </div>
                 <hr />
+            </div>
             </div>
         </section>
     )

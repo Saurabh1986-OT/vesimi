@@ -3,8 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const ShippingInfo = () => {
     return (
-        <section className="pageMain ">
-            <div className="contact-container container mt-5">
+        <section className="pageMain statickPageDesign">
+        <div className="container">
                 <div className="row">
                     <div className="col">
                         <nav aria-label="breadcrumb">
@@ -15,9 +15,9 @@ const ShippingInfo = () => {
                         </nav>
                     </div>
                 </div>
-                {/* Shipping Section */}
-                <h2 className="mb-4"><strong>SHIPPING</strong></h2>
-                <div className="border p-4 rounded">
+                <div className="contentPageWrapper">
+                <h1 className="mb-4"><strong>SHIPPING</strong></h1>
+                <div className="">
                     <p>
                         At VESIMI, we are proud to offer shipping to over 200 countries across the globe.
                         Skycom, hassle-free delivery to your doorstep. The duty rates and other taxes shall
@@ -55,6 +55,7 @@ const ShippingInfo = () => {
                         <strong>Contact:</strong> 022 61276691 / 92 / 93 / 94
                     </p>
                 </div>
+            </div>
             </div>
         </section>
     );
