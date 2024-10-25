@@ -3,7 +3,8 @@ import { Row, Col, Card } from "react-bootstrap";
 
 const AboutUs = () => {
   return (
-    <section className="pageMain statickPageDesign">
+    <section className="pageMain statickPageDesign">   
+    
       <div className="container">
         <div className="contentPageWrapper aboutUSPage">
           <h1 className="text-left h3">ABOUT US</h1>
